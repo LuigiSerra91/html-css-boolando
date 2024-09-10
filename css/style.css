@@ -16,6 +16,7 @@ img{
     
 }
 
+/* #region_app */
 .app_header{
     background-color: orange;
     height: 50px;
@@ -48,6 +49,9 @@ img{
     padding-bottom: 20px;
 }
 
+/* end_region_app */
+
+/* #region_utility */
 .logo{
     height: 20px;
     width: 90px;
@@ -66,9 +70,7 @@ a{
     margin: 7px;
 }
 
-.heart:hover {
-    color: red;
-}
+
 
 .w25{
     width: calc((70% / 12) * 3);
@@ -110,26 +112,30 @@ a{
     right: 0;
     padding: 5px;
     text-align: center;
-    
-   
-    
 }
 
+/* end_region_utility */
+
+/* section_main */
 .levis , .levis2 , .guess , .sugar , .maya , .esprit{
     position: relative;
 }
-
+/* end_section_main */
 .icon{
     margin-top: 5px;
 
 }
 
-
+/* #region_hover */
 .block_hover{
     width: 332px;
     height: 481px;
     position: absolute;
     top: 0;
+}
+
+.heart:hover {
+    color: red;
 }
 
 .levis_hover:hover{
@@ -162,3 +168,4 @@ a{
     background-image: url(../img/6b.webp);
     background-size: cover;
 }
+/* end_region_hover */
