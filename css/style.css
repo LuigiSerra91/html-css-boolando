@@ -8,12 +8,23 @@ img{
     max-width: 100%;
 }
 
+.container{
+    display: flex;
+   justify-content: center;
+   padding-bottom: 25px;
+    
+}
+
 .app_header{
     background-color: orange;
     height: 50px;
     display: flex;
     justify-content:space-around;
     align-items: center;
+}
+
+.app_main{
+    padding-top: 50px;
 }
 
 .logo{
@@ -31,4 +42,17 @@ a{
     text-decoration: none;
     color: white;
     font-size: large;
+}
+
+
+.w25{
+    width: calc((70% / 12) * 3);
+    margin: 5px;
+    
+
+}
+
+.red_cash{
+    color: red;
+    
 }
