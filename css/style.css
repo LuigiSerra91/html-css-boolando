@@ -132,7 +132,33 @@ a{
     top: 0;
 }
 
-.block_hover:hover{
+.levis_hover:hover{
     background-image: url(../img/1b.webp);
+    background-size: cover;
+}
+
+.guess_hover:hover{
+    background-image: url(../img/2b.webp);
+    background-size: cover;
+}
+
+.sugar_hover:hover{
+    background-image: url(../img/3b.webp);
+    background-size: cover;
+}
+
+.levis2_hover:hover{
+    background-image: url(../img/4b.webp);
+    background-size: cover;
+}
+
+.maya_hover:hover{
+    background-image: url(../img/5b.webp);
+    background-size: cover;
+}
+
+
+.esprit_hover:hover{
+    background-image: url(../img/6b.webp);
     background-size: cover;
 }
