@@ -12,6 +12,7 @@ img{
     display: flex;
    justify-content: center;
    padding-bottom: 25px;
+   
     
 }
 
@@ -55,4 +56,36 @@ a{
 .red_cash{
     color: red;
     
+}
+
+.red_discount{
+    background-color: red;
+    color: white;
+    padding: 2px 2px;
+}
+
+.green_discount{
+    background-color: green;
+    color: white;
+    padding: 2px 2px;
+}
+
+.discount{
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+}
+
+.heart{
+    position: absolute;
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    top: 5px;
+    right: 0;
+    padding: 5px;
+}
+
+.levis{
+    position: relative;
 }
