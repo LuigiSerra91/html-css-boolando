@@ -22,6 +22,10 @@ img{
     display: flex;
     justify-content:space-around;
     align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 2;
 }
 
 .app_main{
@@ -44,6 +48,7 @@ a{
     color: white;
     font-size: large;
 }
+
 
 
 .w25{
@@ -76,6 +81,8 @@ a{
     bottom: 100px;
 }
 
+
+
 .heart{
     position: absolute;
     background-color: white;
@@ -84,8 +91,14 @@ a{
     top: 5px;
     right: 0;
     padding: 5px;
+    text-align: center;
+   
+    
 }
 
-.levis{
+.levis , .levis2 , .guess , .sugar , .maya , .esprit{
     position: relative;
 }
+
+
+
