@@ -32,6 +32,22 @@ img{
     padding-top: 50px;
 }
 
+
+.app_footer{
+    
+    background-color: black;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    color: white;
+   
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .logo{
     height: 20px;
     width: 90px;
@@ -47,9 +63,12 @@ a{
     text-decoration: none;
     color: white;
     font-size: large;
+    margin: 7px;
 }
 
-
+.heart:hover {
+    color: red;
+}
 
 .w25{
     width: calc((70% / 12) * 3);
@@ -82,7 +101,6 @@ a{
 }
 
 
-
 .heart{
     position: absolute;
     background-color: white;
@@ -92,6 +110,7 @@ a{
     right: 0;
     padding: 5px;
     text-align: center;
+    
    
     
 }
@@ -99,6 +118,7 @@ a{
 .levis , .levis2 , .guess , .sugar , .maya , .esprit{
     position: relative;
 }
+
 
 
 
