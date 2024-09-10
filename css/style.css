@@ -119,5 +119,20 @@ a{
     position: relative;
 }
 
+.icon{
+    margin-top: 5px;
+
+}
 
 
+.block_hover{
+    width: 332px;
+    height: 481px;
+    position: absolute;
+    top: 0;
+}
+
+.block_hover:hover{
+    background-image: url(../img/1b.webp);
+    background-size: cover;
+}
