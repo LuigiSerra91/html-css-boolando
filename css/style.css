@@ -3,3 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+img{
+    max-width: 100%;
+}
+
+.app_header{
+    background-color: orange;
+    height: 50px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.logo{
+    height: 20px;
+    width: 90px;
+    
+}
+
+
+.icon_header{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
