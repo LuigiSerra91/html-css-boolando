@@ -12,8 +12,10 @@ img{
     display: flex;
    justify-content: center;
    padding-bottom: 25px;
-   
-    
+}
+
+body{
+    min-width: 1440px;
 }
 
 /* #region_app */
